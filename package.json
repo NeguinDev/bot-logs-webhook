@@ -1,0 +1,29 @@
+{
+	"name": "logs-vendas",
+	"version": "1.0.0",
+	"description": "",
+	"author": "NeguinDev",
+	"main": "dist/index.js",
+	"scripts": {
+		"start": "node .",
+		"dev": "tsx watch src",
+		"prod": "tsup src"
+	},
+	"keywords": [],
+	"license": "ISC",
+	"tsup": {
+		"clean": true
+	},
+	"devDependencies": {
+		"@types/express": "^4.17.17",
+		"@types/node": "^20.4.3",
+		"tsup": "^7.1.0",
+		"tsx": "^3.12.7",
+		"typescript": "^5.1.6"
+	},
+	"dependencies": {
+		"discord.js": "^14.11.0",
+		"dotenv": "^16.3.1",
+		"express": "^4.18.2"
+	}
+}
